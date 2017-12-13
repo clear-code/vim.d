@@ -36,6 +36,8 @@ set whichwrap=b,s,h,l,<,>,[,]
 set tabstop=8
 "シフトオペレータ(>>や<<)などで挿入/削除されるインデントの幅
 set shiftwidth=2
+"行頭の余白内で Tab を打ち込むと、'shiftwidth' の数だけインデントする。
+set smarttab
 "入力された<Tab>文字をスペースに展開しない
 "set noexpandtab
 
