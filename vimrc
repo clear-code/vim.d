@@ -3,7 +3,7 @@ syntax on
 set autoindent
 "バックアップファイルを作るディレクトリ
 set backupdir=$HOME/vimbackup
-"ファイル選択ダイアログの初期ディレクトリを開いているファイルと同じディレクトリに設定
+"ファイル選択ダイアログの初期ディレクトリを、開いているファイルと同じディレクトリに設定
 set browsedir=buffer
 "ヤンクしたテキストをデスクトップのクリップボードにコピー
 set clipboard=unnamed
