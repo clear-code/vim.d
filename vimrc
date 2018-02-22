@@ -52,3 +52,30 @@ augroup HighlightTrailingSpaces
   autocmd VimEnter,WinEnter,ColorScheme * highlight TrailingSpaces term=underline guibg=Red ctermbg=Red
   autocmd VimEnter,WinEnter * match TrailingSpaces /\t\+\|\s\+$/
 augroup END
+
+" ----------------------------------------------------
+"   dein.vim (plugin manager. For Vim 7.4 or above.)
+" ----------------------------------------------------
+let s:dein_dir = expand('~/.vim/dein')
+let s:dein_repo_dir = s:dein_dir . '/repos/github.com/Shougo/dein.vim'
+
+if &runtimepath !~# '/dein.vim'
+  if !isdirectory(s:dein_repo_dir)
+    execute '!git clone https://github.com/Shougo/dein.vim' s:dein_repo_dir
+  endif
+  execute 'set runtimepath^=' . fnamemodify(s:dein_repo_dir, ':p')
+endif
+
+if dein#load_state(s:dein_dir)
+  call dein#begin(s:dein_dir)
+
+  call dein#add('vim-jp/vimdoc-ja')
+  "call dein#add('...')
+
+  call dein#end()
+  call dein#save_state()
+endif
+
+if dein#check_install()
+  call dein#install()
+endif
