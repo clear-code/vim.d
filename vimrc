@@ -69,8 +69,38 @@ endif
 if dein#load_state(s:dein_dir)
   call dein#begin(s:dein_dir)
 
+  call dein#add('thinca/vim-quickrun')
   call dein#add('vim-jp/vimdoc-ja')
-  "call dein#add('...')
+  call dein#add('ConradIrwin/vim-bracketed-paste')
+
+  " tree
+  call dein#add('scrooloose/nerdtree')
+  call dein#add('Xuyuanp/nerdtree-git-plugin')
+
+  " Git
+  call dein#add('tpope/vim-fugitive')
+  call dein#add('cohama/agit.vim')
+  call dein#add('myokoym/insert-git-log.vim')
+
+  " move
+  call dein#add('haya14busa/vim-edgemotion')
+
+  " comp
+  call dein#add('tpope/vim-endwise')
+  call dein#add('tpope/vim-surround')
+  call dein#add('mattn/emmet-vim')
+  call dein#add('tomtom/tcomment_vim')
+  call dein#add('junegunn/vim-easy-align')
+
+  " search
+  call dein#add('rking/ag.vim')
+  call dein#add('haya14busa/incsearch.vim')
+  call dein#add('ctrlpvim/ctrlp.vim')
+
+  " lang
+  call dein#add('othree/html5.vim')
+  call dein#add('tpope/vim-rails')
+  call dein#add('vim-scripts/rest.vim')
 
   call dein#end()
   call dein#save_state()
