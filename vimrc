@@ -54,6 +54,29 @@ augroup HighlightTrailingSpaces
 augroup END
 
 " ----------------------------------------------------
+"   plugin settings
+" ----------------------------------------------------
+" nerdtree
+let g:NERDTreeShowBookmarks = 1
+let g:NERDTreeChDirMode = 2
+"let g:NERDTreeDirArrows=0
+let NERDTreeWinSize = 25
+nnoremap <silent><C-e> :NERDTreeToggle<CR>
+if !argc()
+  autocmd vimenter * NERDTree|normal gg3j
+endif
+
+" vim-easy-align
+" Start interactive EasyAlign in visual mode (e.g. vipga)
+xmap ga <Plug>(EasyAlign)
+" Start interactive EasyAlign for a motion/text object (e.g. gaip)
+nmap ga <Plug>(EasyAlign)
+
+" vim-edgemotion
+map <C-j> <Plug>(edgemotion-j)
+map <C-k> <Plug>(edgemotion-k)
+
+" ----------------------------------------------------
 "   dein.vim (plugin manager. For Vim 7.4 or above.)
 " ----------------------------------------------------
 let s:dein_dir = expand('~/.vim/dein')
