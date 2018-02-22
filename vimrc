@@ -53,6 +53,9 @@ augroup HighlightTrailingSpaces
   autocmd VimEnter,WinEnter * match TrailingSpaces /\t\+\|\s\+$/
 augroup END
 
+" vimgrepで常にquickfix-windowを開く（|cw する）
+autocmd QuickFixCmdPost *grep* cwindow
+
 " ----------------------------------------------------
 "   plugin settings
 " ----------------------------------------------------
