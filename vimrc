@@ -79,6 +79,10 @@ nmap ga <Plug>(EasyAlign)
 map <C-j> <Plug>(edgemotion-j)
 map <C-k> <Plug>(edgemotion-k)
 
+" vim-endwise
+let g:endwise_no_mappings = 1
+autocmd FileType lua,ruby,sh,zsh,vb,vbnet,aspvbs,vim imap <buffer> <CR> <CR><Plug>DiscretionaryEnd
+
 " ----------------------------------------------------
 "   dein.vim (plugin manager. For Vim 7.4 or above.)
 " ----------------------------------------------------
