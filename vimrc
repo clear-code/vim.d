@@ -111,6 +111,9 @@ if dein#load_state(s:dein_dir)
   call dein#add('tpope/vim-fugitive')
   call dein#add('cohama/agit.vim')
   call dein#add('clear-code/insert-git-log.vim')
+  call dein#add('kana/vim-gf-user')
+  call dein#add('kana/vim-gf-diff')
+  call dein#add('clear-code/git-diff-unified.vim')
 
   " move
   call dein#add('haya14busa/vim-edgemotion')
