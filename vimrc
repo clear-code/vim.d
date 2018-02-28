@@ -109,6 +109,7 @@ if dein#load_state(s:dein_dir)
 
   " Git
   call dein#add('tpope/vim-fugitive')
+  call dein#add('tpope/vim-rhubarb')
   call dein#add('cohama/agit.vim')
   call dein#add('clear-code/insert-git-log.vim')
   call dein#add('kana/vim-gf-user')
