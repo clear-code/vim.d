@@ -83,6 +83,11 @@ map <C-k> <Plug>(edgemotion-k)
 let g:endwise_no_mappings = 1
 autocmd FileType lua,ruby,sh,zsh,vb,vbnet,aspvbs,vim imap <buffer> <CR> <CR><Plug>DiscretionaryEnd
 
+" open-browser.vim
+let g:netrw_nogx = 1 " disable netrw's gx mapping.
+nmap gx <Plug>(openbrowser-smart-search)
+vmap gx <Plug>(openbrowser-smart-search)
+
 " ----------------------------------------------------
 "   dein.vim (plugin manager. For Vim 7.4 or above.)
 " ----------------------------------------------------
@@ -102,6 +107,7 @@ if dein#load_state(s:dein_dir)
   call dein#add('thinca/vim-quickrun')
   call dein#add('vim-jp/vimdoc-ja')
   call dein#add('ConradIrwin/vim-bracketed-paste')
+  call dein#add('tyru/open-browser.vim')
 
   " buffer
   call dein#add('jlanzarotta/bufexplorer')
