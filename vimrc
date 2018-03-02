@@ -103,6 +103,9 @@ if dein#load_state(s:dein_dir)
   call dein#add('vim-jp/vimdoc-ja')
   call dein#add('ConradIrwin/vim-bracketed-paste')
 
+  " buffer
+  call dein#add('jlanzarotta/bufexplorer')
+
   " tree
   call dein#add('scrooloose/nerdtree')
   call dein#add('Xuyuanp/nerdtree-git-plugin')
