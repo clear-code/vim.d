@@ -48,3 +48,7 @@ function! EditGitModifiedFiles()
 endfunction
 noremap <Leader>eg :call EditGitModifiedFiles()<CR>
 noremap <silent> <Leader>ge :call EditGitModifiedFiles()<CR>:BufExplorer<CR>
+
+" operator-camelize.vim
+map <leader>cc <plug>(operator-camelize)
+map <leader>cs <plug>(operator-decamelize)

@@ -50,6 +50,8 @@ if dein#load_state(s:dein_dir)
   call dein#add('vim-jp/vimdoc-ja')
   call dein#add('ConradIrwin/vim-bracketed-paste')
   call dein#add('tyru/open-browser.vim')
+  call dein#add('kana/vim-operator-user')
+  call dein#add('tyru/operator-camelize.vim')
 
   " buffer
   call dein#add('jlanzarotta/bufexplorer')
