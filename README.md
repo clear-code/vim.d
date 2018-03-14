@@ -5,6 +5,7 @@
     % git clone https://github.com/clear-code/vim.d.git ~/.vim.d
     % echo "source ~/.vim.d/vimrc" >> ~/.vimrc
     % echo "source ~/.vim.d/leader.vim" >> ~/.vimrc
+    % echo "source ~/.vim.d/plugin.vim" >> ~/.vimrc
 
 ## カスタマイズ
 
