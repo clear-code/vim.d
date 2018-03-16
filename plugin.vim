@@ -47,7 +47,8 @@ if dein#load_state(s:dein_dir)
   call dein#begin(s:dein_dir)
 
   call dein#add('thinca/vim-quickrun')
-  call dein#add('vim-jp/vimdoc-ja')
+  " repository size is large
+  " call dein#add('vim-jp/vimdoc-ja')
   call dein#add('ConradIrwin/vim-bracketed-paste')
   call dein#add('tyru/open-browser.vim')
   call dein#add('kana/vim-operator-user')
