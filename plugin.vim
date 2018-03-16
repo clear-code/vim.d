@@ -53,6 +53,7 @@ if dein#load_state(s:dein_dir)
   call dein#add('tyru/open-browser.vim')
   call dein#add('kana/vim-operator-user')
   call dein#add('tyru/operator-camelize.vim')
+  call dein#add('kana/vim-altr')
 
   " buffer
   call dein#add('jlanzarotta/bufexplorer')

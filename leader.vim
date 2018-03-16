@@ -52,3 +52,6 @@ noremap <silent> <Leader>ge :call EditGitModifiedFiles()<CR>:BufExplorer<CR>
 " operator-camelize.vim
 map <leader>cc <plug>(operator-camelize)
 map <leader>cs <plug>(operator-decamelize)
+
+" kana/vim-altr
+nmap <Leader>a  <Plug>(altr-forward)
