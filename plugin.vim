@@ -93,7 +93,7 @@ if dein#load_state(s:dein_dir)
   call dein#add('vim-scripts/rest.vim')
 
   " 上記以外のプラグインを追加する場合、
-  " ~/.vim/dein/dein.tomlを作成して以下のように記述してください。
+  " ~/.vim/dein/dein.toml を作成して以下のように記述してください。
   "
   "   [[plugins]]
   "   repo = '.../...'
