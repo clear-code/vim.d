@@ -8,6 +8,7 @@
     % echo "source ~/.vim.d/leader.vim" >> ~/.vimrc
     % echo "source ~/.vim.d/plugin.vim" >> ~/.vimrc
     % echo "source ~/.vim.d/japanese.vim" >> ~/.vimrc
+    % mkdir $HOME/vimbackup
 
 ## カスタマイズ
 
