@@ -90,8 +90,12 @@ if dein#load_state(s:dein_dir)
   call dein#add('junegunn/vim-easy-align')
 
   " search
-  call dein#add('rking/ag.vim')
   call dein#add('haya14busa/incsearch.vim')
+
+  " grep
+  call dein#add('rking/ag.vim')
+
+  " find
   call dein#add('ctrlpvim/ctrlp.vim')
 
   " lang
