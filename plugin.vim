@@ -30,6 +30,13 @@ let g:netrw_nogx = 1 " disable netrw's gx mapping.
 nmap gx <Plug>(openbrowser-smart-search)
 vmap gx <Plug>(openbrowser-smart-search)
 
+" vim-quickrun
+let g:quickrun_config = {}
+"" vim-markdown
+let g:quickrun_config['markdown'] = {
+      \   'outputter': 'browser'
+      \ }
+
 " ----------------------------------------------------
 "   dein.vim (plugin manager. For Vim 7.4 or above.)
 " ----------------------------------------------------
@@ -91,6 +98,7 @@ if dein#load_state(s:dein_dir)
   call dein#add('othree/html5.vim')
   call dein#add('tpope/vim-rails')
   call dein#add('vim-scripts/rest.vim')
+  call dein#add('tpope/vim-markdown')
 
   " 上記以外のプラグインを追加する場合、
   " ~/.vim/dein/dein.toml を作成して以下のように記述してください。
