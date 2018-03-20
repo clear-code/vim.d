@@ -36,6 +36,8 @@ noremap <Leader>tf :NERDTreeFind<CR>
 noremap <Leader>gg :Ggrep <C-r><C-w><CR>
 "" rking/ag.vim
 noremap <Leader>ag :Ag <C-r><C-w><CR>
+"" nazo/pt.vim
+noremap <Leader>pt :Pt <C-r><C-w><CR>
 
 " Gitで変更があるファイルをすべてバッファに入れる
 function! EditGitModifiedFiles()

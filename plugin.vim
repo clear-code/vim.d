@@ -94,6 +94,7 @@ if dein#load_state(s:dein_dir)
 
   " grep
   call dein#add('rking/ag.vim')
+  call dein#add('nazo/pt.vim')
 
   " find
   call dein#add('ctrlpvim/ctrlp.vim')
