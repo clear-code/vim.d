@@ -33,7 +33,7 @@ vmap gx <Plug>(openbrowser-smart-search)
 " vim-quickrun
 let g:quickrun_config = {}
 "" vim-markdown
-let g:quickrun_config['markdown'] = {
+let g:quickrun_config.markdown = {
       \   'outputter': 'browser'
       \ }
 
