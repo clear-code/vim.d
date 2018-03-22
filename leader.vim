@@ -29,7 +29,7 @@ noremap <Leader>qo :copen<CR>
 noremap <Leader>b :BufExplorer<CR>
 
 " 開いているファイルをNERDTreeで表示
-noremap <Leader>tf :NERDTreeFind<CR>
+noremap <Leader>t :NERDTreeFind<CR>
 
 " カーソル位置の単語でgrep
 "" tpope/vim-fugitive

@@ -8,6 +8,7 @@
     % echo "source ~/.vim.d/leader.vim" >> ~/.vimrc
     % echo "source ~/.vim.d/plugin.vim" >> ~/.vimrc
     % echo "source ~/.vim.d/japanese.vim" >> ~/.vimrc
+    % echo "source ~/.vim.d/plugin-settings/ctrlp.vim" >> ~/.vimrc  # experimental
 
 ## カスタマイズ
 
@@ -29,3 +30,4 @@ TODO
 * [VimScriptざっくりチュートリアル(バッファ編集編) - かせいさんとこ](http://d.hatena.ne.jp/kasei_san/20130714/p1)
 * [Vim でコピペするときの Tips - 反省はしても後悔はしない](http://cohama.hateblo.jp/entry/20130108/1357664352)
 * [Vimでの日本語編集がはかどるキーマッピング - Qiita](https://qiita.com/ssh0/items/9e7f0d8b8f033183dd0b)
+* [ctrlp.vimの使い方まとめ - Qiita](https://qiita.com/oahiroaki/items/d71337fb9d28303a54a8)
