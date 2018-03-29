@@ -3,7 +3,7 @@
 ## 使い方の例
 
     % git clone https://github.com/clear-code/vim.d.git ~/.vim.d
-    % mkdir $HOME/vimbackup
+    % mkdir ~/vimbackup
     % echo "source ~/.vim.d/vimrc" >> ~/.vimrc
     % echo "source ~/.vim.d/leader.vim" >> ~/.vimrc
     % echo "source ~/.vim.d/plugin.vim" >> ~/.vimrc
