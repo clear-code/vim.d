@@ -5,6 +5,7 @@
     % git clone https://github.com/clear-code/vim.d.git ~/.vim.d
     % mkdir ~/vimbackup
     % echo "source ~/.vim.d/vimrc" >> ~/.vimrc
+    % echo "source ~/.vim.d/mapping.vim" >> ~/.vimrc
     % echo "source ~/.vim.d/leader.vim" >> ~/.vimrc
     % echo "source ~/.vim.d/plugin.vim" >> ~/.vimrc
     % echo "source ~/.vim.d/japanese.vim" >> ~/.vimrc
@@ -31,3 +32,4 @@ TODO
 * [Vim でコピペするときの Tips - 反省はしても後悔はしない](http://cohama.hateblo.jp/entry/20130108/1357664352)
 * [Vimでの日本語編集がはかどるキーマッピング - Qiita](https://qiita.com/ssh0/items/9e7f0d8b8f033183dd0b)
 * [ctrlp.vimの使い方まとめ - Qiita](https://qiita.com/oahiroaki/items/d71337fb9d28303a54a8)
+* [vimrc読書会](http://vim-jp.org/reading-vimrc/)

@@ -1,6 +1,8 @@
 let mapleader = "\<Space>"
 
-noremap <Leader>w :w<CR>
+" バッファに変更点があるときのみ書き込みを行う。
+noremap <Leader>w :update<CR>
+
 nmap <Leader><Leader> V
 
 " 0（ゼロ）レジスタで同じ文字列を何度も貼り付ける
