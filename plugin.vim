@@ -61,6 +61,7 @@ if dein#load_state(s:dein_dir)
   call dein#add('kana/vim-operator-user')
   call dein#add('tyru/operator-camelize.vim')
   call dein#add('kana/vim-altr')
+  call dein#add('AndrewRadev/sideways.vim')
 
   " buffer
   call dein#add('jlanzarotta/bufexplorer')

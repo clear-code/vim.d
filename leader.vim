@@ -59,3 +59,8 @@ map <leader>cs <plug>(operator-decamelize)
 
 " kana/vim-altr
 nmap <Leader>a  <Plug>(altr-forward)
+
+" AndrewRadev/sideways.vim
+" to move function arguments (and other delimited-by-something items) left and right.
+nnoremap <Leader>hh :SidewaysLeft<CR>
+nnoremap <Leader>ll :SidewaysRight<CR>
