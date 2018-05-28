@@ -40,6 +40,8 @@ set shiftwidth=2
 set smarttab
 "入力された<Tab>文字をスペースに展開しない
 "set noexpandtab
+" Increase history size
+set history=1000
 
 "ペースト時にインデントしない
 "有効にするとautoindentやend補完が効かなくなる
