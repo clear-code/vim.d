@@ -7,8 +7,11 @@ set backupdir=$HOME/vimbackup
 set browsedir=buffer
 "ヤンクしたテキストをデスクトップのクリップボードにコピー
 set clipboard=unnamed
-"Vi互換をオフ
-set nocompatible
+"Vi互換をオフ->不要
+" 参考:
+"   * https://qiita.com/yu_suke1994/items/e0a19574994a57c8fe17
+"   * https://gitter.im/clear-code/ClearCode.vim?at=5b0b6b9954ce2313615cef80
+"set nocompatible
 "スワップファイル用のディレクトリ
 set directory=$HOME/vimbackup
 "タブの代わりに空白文字を挿入する
