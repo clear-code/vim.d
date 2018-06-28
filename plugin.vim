@@ -36,6 +36,11 @@ let g:quickrun_config = {}
 let g:quickrun_config.markdown = {
       \   'outputter': 'browser'
       \ }
+let g:quickrun_config.rst = {
+      \   'outputter': 'message',
+      \   'runner': 'vimscript',
+      \   'exec': 'InstantRst'
+      \ }
 
 " ----------------------------------------------------
 "   dein.vim (plugin manager. For Vim 7.4 or above.)
@@ -104,6 +109,7 @@ if dein#load_state(s:dein_dir)
   call dein#add('othree/html5.vim')
   call dein#add('tpope/vim-rails')
   call dein#add('vim-scripts/rest.vim')
+  call dein#add('gu-fan/InstantRst')
   call dein#add('tpope/vim-markdown')
 
   " 上記以外のプラグインを追加する場合、
