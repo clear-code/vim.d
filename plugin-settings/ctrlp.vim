@@ -2,10 +2,10 @@
 
 let NERDTreeQuitOnOpen = 1
 let NERDTreeWinSize = 75
-if !argc()
-  autocmd vimenter * NERDTreeClose
-  autocmd vimenter * CtrlPMRUFiles
-endif
+"if !argc()
+"  autocmd vimenter * NERDTreeClose
+"  autocmd vimenter * CtrlPMRUFiles
+"endif
 
 " ref: https://postd.cc/how-to-boost-your-vim-productivity/
 let g:ctrlp_use_caching = 0
