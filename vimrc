@@ -20,6 +20,8 @@ set expandtab
 set hidden
 "インクリメンタルサーチを行う
 set incsearch
+"検索結果をハイライトする
+set hlsearch
 "タブ文字、行末など不可視文字を表示する
 "set list
 "listで表示される文字のフォーマットを指定する
