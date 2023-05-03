@@ -5,8 +5,10 @@ set autoindent
 set backupdir=$HOME/vimbackup
 "ファイル選択ダイアログの初期ディレクトリを、開いているファイルと同じディレクトリに設定
 set browsedir=buffer
-"ヤンクしたテキストをデスクトップのクリップボードにコピー
-set clipboard=unnamed
+if !has('mac')
+  "ヤンクしたテキストをデスクトップのクリップボードにコピー
+  set clipboard=unnamed
+endif
 "Vi互換をオフ->不要
 " 参考:
 "   * https://qiita.com/yu_suke1994/items/e0a19574994a57c8fe17
